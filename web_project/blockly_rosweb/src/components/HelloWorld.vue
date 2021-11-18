@@ -317,7 +317,7 @@ export default {
           this.isDone = false
           await turtlesim.callTurtlesimMoveService(this.ros, x, y, 0)
           this.isDone = true
-          return 'turtlesim' + '向左移动了' + x + ',向右移动了' + y + '.'
+          return 'turtlesim' + '向右移动了' + x + ',向上移动了' + y + '.'
         } catch (error) {
           this.isDone = false
           return '运行错误'
